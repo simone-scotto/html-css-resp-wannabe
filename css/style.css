@@ -133,7 +133,9 @@ img {
 @media screen and (max-width: 480px) {
 
     .container {
-        max-width: 480px;
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 100%;
 
         .row {
             display: flex;
@@ -174,3 +176,4 @@ img {
 .text, .col.col-left {
     margin-bottom: 2rem;
 }
+
