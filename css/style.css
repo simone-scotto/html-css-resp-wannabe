@@ -109,8 +109,10 @@ img {
 
 /* WHY US SECTION */
 .why-us {
-    margin-bottom: 3rem;
+    margin-bottom: 3rem;    
+    
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -142,36 +144,55 @@ img {
             flex-direction: column;
             align-items: center;
 
-            .col {
-                max-width: 90%;
+            
 
-                
-            }
+            
             
         }
     }
 
+    
 .lessons .col {
-   width: 100%;
+    width: 100%;
+
 }
 
 .lessons .col img {
-    height: 300px;
+    height: 100%;
     margin-bottom: 1rem;
-    
+}
+            
+
+
+
+.steps {
+    margin: 0;
 }
 
 .steps .col {
     width: 100%;
 }
-
-.why-us .col-left {
-    width: 100%;
+.steps .col img {
+    height: 100%;
+    margin-bottom: 1rem;
 }
 
 .why-us .col-right {
     width: 100%;
 }
+
+
+.why-us {
+    background-color: black;
+    padding: 3rem 0;
+    margin: 0;
+}
+
+.why-us .col-left {
+     width: 100%;
+}
+
+
 
 .text, .col.col-left {
     margin-bottom: 2rem;
@@ -181,11 +202,13 @@ img {
 
 /*tablet*/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 
      .container {
         
         max-width: 100%;
+
+        
      }
 }
 
@@ -196,5 +219,7 @@ img {
 
     .container {
         width: 80%;
+        
+       
     }
 }
